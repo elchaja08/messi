@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+}
+main{
+    height: 100px;
+    background-color: beigesw;
+}
+img{
+    height: px;
+}
+
+nav{
+    background-color: rgb(211, 31, 130);
+    height: 80px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 30px;
+    transition-property: border;
+    transition-duration: 1s;
+}
+a:hover{
+    background-color: rgb(163, 15, 94);
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 9px;
+}
+
+
+.Cajaprincipal{
+    background-color: rgb(211, 31, 130);
+    height: 80vh;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+
+}
+
+h1{
+   display: flex;
+    justify-content: center;
+}
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.image-mesi{
+    width: 100%;
+    height: 700px;
+    background-image: url(imagenes/mezziii.jpg);
+    background-position: top ;
+    background-size: cover;
+}
+.parrafo p {
+padding:12px 30px;
+font-family: sans-serif;
+font-size: 20px;
+line-height: 2;
+}
+
+.contenedor{
+    width: 80%;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
+   
+    justify-content: center;
+    margin: 0 auto;
+    row-gap: 10px;
+    margin-top: 20px;
+
+}
+
+
+.hijos{
+    justify-self: center;
+    border: 3px solid;
+    width: 250px;
+    height: 300px;
+  
+    border-radius: 10px;
+    
+}
+.hijos:hover{
+    animation-name: agrandar;
+    animation-duration: 2s;
+}
+img{
+    width: 80%;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+p{
+    margin-left: 45px;
+    font-size: 25px;
+}
+span{
+    margin-left: 65px;
+}
+.fa-solid{
+    font-size: 27px;
+}
+.fa-regular{
+    font-size: 27px;
+}
+.contenedorsection{
+height: 100vh;
+width: 90%;
+}
+.iconos{
+    display: flex;
+    border-radius: 20px ;
+    border: 2px solid;
+    align-items: center;
+    row-gap: 5px;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.scontactos{
+    margin: auto ;
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    width: 75%;
+    height:50vh ;
+   
+}
+@keyframes agrandar {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+.fa-brands{
+    font-size: 27px;
+}
